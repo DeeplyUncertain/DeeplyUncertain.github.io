@@ -1,1 +1,19 @@
-This page will host a collaboration with sendwave (Chimes inc.)
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script>
+var url='file:///home/trickster/Documents/work/git/index.html'
+
+var req=window.location.href
+var queryString=req.split('?')[1]
+
+if (typeof queryString == 'undefined' && (req==url || req==url + '?board=' || req==url+ '?board=+++++++++')) {
+	console.log('nada')
+}
+		</script>
+	</body>
+</html>
+
